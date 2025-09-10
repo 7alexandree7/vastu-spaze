@@ -31,7 +31,7 @@ const NavBar = () => {
                     {LINKS.map((link, index) => (
                         <a key={index} href={link.link}>{link.name}</a>
                     ))}
-                </div>         
+                </div>
             </div>
 
             {isOpen && (
@@ -41,7 +41,7 @@ const NavBar = () => {
                     ))}
                 </div>
             )}
-            
+
         </nav>
     )
 }
